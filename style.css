@@ -92,6 +92,30 @@
     --light-txt: #666;
   }
 
+  .container {
+    position: relative;
+    bottom: 60px;
+    }
+
   .copyright {
+    
+    padding: 10px; 
     text-align: center;
   }
+
+  
+.light .copyright {
+color: #555; 
+}
+
+
+.dark .copyright {
+color: #ddd; 
+}
+
+.image {
+  height: 80%;
+  position: relative;
+  left: 60px;
+
+}
